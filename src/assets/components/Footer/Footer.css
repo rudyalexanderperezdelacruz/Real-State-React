@@ -1,0 +1,28 @@
+.f-container {
+    display: flex;
+    justify-content: space-between !important;
+}
+
+.f-left {
+    gap: 1rem;
+}
+
+.f-menu {
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+    font-weight: 500;
+}
+
+@media (min-width:768px) {
+    .f-container {
+        display:flex;
+        flex-direction: column;
+    }
+    .f-left .secondaryText {
+        margin-bottom: 3rem;
+    }
+    .f-right .f-info-span {
+        position: relative;
+        left: 90px;
+    }
+}

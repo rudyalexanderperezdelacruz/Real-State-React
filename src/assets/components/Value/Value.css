@@ -1,0 +1,31 @@
+.v-left .image-container {
+    border: 8px solid rgba(232, 232, 232, 0.93);
+}
+
+.v-container>div:not(.v-right) {
+    flex: 1;
+}
+
+.v-right{
+    gap: 0.5rem;
+
+}
+
+.secondaryText {
+   letter-spacing: 1px;
+}
+
+.v-wrapper {
+    margin-top: 5rem;
+}
+
+.btnvalue {
+    margin-top: 1rem;
+}
+
+@media (min-width:375px),  (max-width:400px) {
+    .v-right {
+        padding: 0px 20px;
+    }
+}
+

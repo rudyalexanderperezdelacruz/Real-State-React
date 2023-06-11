@@ -1,0 +1,14 @@
+.c-container {
+    justify-content: space-between;
+    gap: 8rem;
+}
+
+.c-container>img {
+    width: 9rem;
+}
+
+@media (min-width:768px) {
+    .c-container>img {
+    
+    }
+}
