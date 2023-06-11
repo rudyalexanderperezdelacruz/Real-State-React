@@ -79,7 +79,7 @@
   
 }
 
-@media (max-width:390px) {
+@media (max-width:500px) {
     .c-container{
         display: flex;
         justify-content: center;
