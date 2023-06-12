@@ -11,12 +11,12 @@ function Hero() {
         <div className="flexColStart hero-left">
             <div className="hero-title">
                 <div className="orange-circle " />
-                <h1>Discover <br />Most Suitable <br/>Property</h1>
+                <h1 classname='paddings'>Discover <br />Most Suitable <br/>Property</h1>
             </div>
 
             <div className="hero-des flexColStart">
-                <span className='secondaryText'>Find a variety of properties that suit you very easilty</span>
-                <span  className='secondaryText'>Forget all difficulties in finding a residence for you</span>
+                <span className='secondaryText paddings'>Find a variety of properties that suit you very easilty</span>
+                <span  className='secondaryText paddings'>Forget all difficulties in finding a residence for you</span>
             </div>
 
             <div className="search-bar flexCenter">
