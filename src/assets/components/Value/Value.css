@@ -23,9 +23,20 @@
     margin-top: 1rem;
 }
 
-@media (min-width:375px),  (max-width:400px) {
+@media (max-width:400px) {
     .v-right {
         padding: 0px 20px;
     }
 }
+
+@media (max-width:500px) {
+    .v-container .v-right{
+        display: flex;
+        flex-direction: column !important;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
 
