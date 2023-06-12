@@ -6,11 +6,11 @@ import { HiLocationMarker } from 'react-icons/hi';
 function Hero() {
   return (
     <section className="hero-wrapper">
-    <div className="innerWidth flexCenter hero-container">
+    <div className="innerWidth flexCenter hero-container paddings">
          {/*/left Side*/}
         <div className="flexColStart hero-left">
             <div className="hero-title">
-                <div className="orange-circle" />
+                <div className="orange-circle " />
                 <h1>Discover <br />Most Suitable <br/>Property</h1>
             </div>
 
